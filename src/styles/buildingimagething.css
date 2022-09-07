@@ -1,0 +1,26 @@
+.known-reserved {
+  fill: #c1272d88;
+}
+#target g.tooltip-container:hover .known-reserved,
+#target g.tooltip-container:active .known-reserved {
+  fill: #81070d88;
+  cursor: pointer;
+}
+
+.known-free {
+  fill: #00800088;
+}
+#target g.tooltip-container:hover .known-free,
+#target g.tooltip-container:active .known-free {
+  fill: #00500088;
+  cursor: pointer;
+}
+
+.unknown {
+  fill: #8808;
+}
+#target g.tooltip-container:hover .unknown,
+#target g.tooltip-container:active .unknown {
+  fill: #00f8;
+  cursor: pointer;
+}

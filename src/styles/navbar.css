@@ -1,0 +1,16 @@
+.navbar {
+  background: black;
+}
+
+.navbar-content {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr repeat(4, auto);
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 3rem;
+  object-fit: cover;
+}
